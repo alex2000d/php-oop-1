@@ -11,6 +11,11 @@
         $this->lingua = $_lingua;
     
     }
+    
+    public function getFullMovie(){
+        return $this->titolo." ".$this->genere." ".$this->lingua;
+    }
+
   }
 
   $star_wars = new movie("star_wars", "fantascienza", "italiano");
