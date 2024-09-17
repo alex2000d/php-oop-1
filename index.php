@@ -3,6 +3,15 @@
     public $titolo;
     public $genere;
     public $lingua;
+    public $descrizione;
+
+    public function __construct($_titolo, $_genere, $_lingua, $_descrizione){
+        $this->titolo = $_titolo;
+        $this->genere = $_genere;
+        $this->lingua = $_lingua;
+        $this->descrizione = $_descrizione;
+
+    }
   }
 ?>
 
